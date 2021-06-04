@@ -116,9 +116,10 @@ function draw() {
       reset();
     }
 
-    camera.position.x = displayWidth/2;
-    camera.position.y = cars[index-1].y;
+    
   }
+  camera.position.x = trex.x;
+  camera.position.y = displayHeight/2;
   
   
   drawSprites();
